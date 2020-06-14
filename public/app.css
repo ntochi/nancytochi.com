@@ -1,0 +1,31 @@
+nav {
+    border: 2px solid pink;
+}
+
+a.name {
+    letter-spacing: 0;
+}
+
+span.role {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.btn.btn-dark {
+    background-color: black;
+}
+
+.nav-item:hover {
+    color: black;
+    font-weight: 500;
+}
+
+.nav-item.active  {
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
