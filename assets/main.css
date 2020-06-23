@@ -1,9 +1,11 @@
+/* Navigation */
 nav {
     border: 2px solid pink;
 }
 
 a.name {
     letter-spacing: 0;
+    font-size: 1.15;
 }
 
 span.role {
@@ -24,8 +26,3 @@ span.role {
     font-weight: bold;
 }
 
-img {
-    max-width: 100%;
-    display: block;
-    height: auto;
-}
