@@ -1,1 +1,90 @@
-/* No CSS *//*# sourceMappingURL=app.css.map */
+#hero {
+  text-align: center;
+  height: 100vh;
+  padding-top: 30vh;
+  overflow: hidden;
+}
+
+#hero .animate {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 2.5rem;
+}
+
+#hero .greeting {
+  font-weight: 600;
+  -webkit-animation: showup 7s infinite;
+          animation: showup 7s infinite;
+}
+
+#hero .name-1 {
+  margin-left: -355px;
+  -webkit-animation: slidein 7s infinite;
+          animation: slidein 7s infinite;
+}
+
+@-webkit-keyframes showup {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes showup {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes slidein {
+  0% {
+    margin-left: -800px;
+  }
+  20% {
+    margin-left: -800px;
+  }
+  35% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: -800px;
+  }
+  20% {
+    margin-left: -800px;
+  }
+  35% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+
+#hero .title {
+  font-size: 1.25rem;
+}
+/*# sourceMappingURL=app.css.map */
