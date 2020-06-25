@@ -1,0 +1,44 @@
+#hero{
+    text-align: center;
+    height: 100vh;
+    padding-top: 30vh;
+    overflow: hidden;
+    
+
+    .animate {
+        display:inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+        font-size: 2.5rem;
+    }
+
+    
+    .greeting{
+        font-weight: 600;
+        animation: showup 7s infinite;
+    }
+
+    .name-1{
+        margin-left: -355px;
+        animation: slidein 7s infinite;
+    }
+
+    @keyframes showup {
+        0% {opacity:0;}
+        20% {opacity:1;}
+        80% {opacity:1;}
+        100% {opacity:1;}
+    }
+    
+    @keyframes slidein {
+        0% {margin-left:-800px; }
+        20% {margin-left:-800px; }
+        35% {margin-left:0px; }
+        100% { margin-left:0px; }
+    }
+    
+    .title{
+        font-size: 1.25rem;
+    }
+}
+
