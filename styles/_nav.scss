@@ -1,0 +1,25 @@
+nav{
+    a.name {
+        letter-spacing: 0;
+        font-size: 1.15;
+    }
+
+    span.role {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .btn.btn-dark {
+        background-color: black;
+    }
+
+    .nav-item:hover {
+        color: black;
+        font-weight: bold;
+    }
+
+    .nav-item.active  {
+        font-weight: bold;
+    }
+
+}
