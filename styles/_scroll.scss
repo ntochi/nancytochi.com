@@ -6,8 +6,8 @@ $colorBg: #222a30;
 $colorOutline: #ffffff;
 $colorOutlineFade: #4e5559;
 
-$widthMouse: 40px;
-$heightMouse: 70px;
+$widthMouse: 35px;
+$heightMouse: 60px;
 $borderMouse: 6px;
 
 $posMouse: 8px;
@@ -68,7 +68,7 @@ $animDuration: 5s;
 .scroll {
     margin-top: 1em;
     font-family: "Cabin", sans-serif;
-    letter-spacing: 10px;
+    letter-spacing: 6px;
     text-indent: 12px;
     color: $colorOutline;
     animation: 
