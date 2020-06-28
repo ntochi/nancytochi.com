@@ -13,6 +13,10 @@ nav .btn.btn-dark {
   background-color: black;
 }
 
+nav .nav-item {
+  margin: 0 0.5em;
+}
+
 nav .nav-item:hover {
   color: black;
   font-weight: bold;
@@ -27,8 +31,8 @@ nav .nav-item.active {
   background: #4e5559 linear-gradient(transparent 0%, transparent 50%, #ffffff 50%, #ffffff 100%);
   margin-top: -200px;
   position: relative;
-  width: 40px;
-  height: 70px;
+  width: 35px;
+  height: 60px;
   border-radius: 100px;
   background-size: 100% 200%;
   -webkit-animation: colorSlide 5s linear infinite, nudgeMouse 5s ease-out infinite;
@@ -46,8 +50,8 @@ nav .nav-item.active {
 }
 
 .mouse:before {
-  width: 34px;
-  height: 64px;
+  width: 29px;
+  height: 54px;
   background-color: #222a30;
   border-radius: 100px;
 }
@@ -64,7 +68,7 @@ nav .nav-item.active {
 .scroll {
   margin-top: 1em;
   font-family: "Cabin", sans-serif;
-  letter-spacing: 10px;
+  letter-spacing: 6px;
   text-indent: 12px;
   color: #ffffff;
   -webkit-animation: colorText 5s ease-out infinite, nudgeText 5s ease-out infinite;
@@ -568,5 +572,41 @@ nav .nav-item.active {
 
 #hero .title {
   font-size: 1.25rem;
+}
+
+#about {
+  height: 100vh;
+  text-align: justify;
+  margin: 5% 0;
+  padding: 6% 0;
+}
+
+#about .content {
+  padding-right: 3%;
+}
+
+#about img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  padding-top: 2%;
+}
+
+#projects {
+  height: 100vh;
+  margin: 5% 0;
+  padding: 6% 0;
+}
+
+#tools {
+  height: 100vh;
+  margin: 5% 0;
+  padding: 6% 0;
+}
+
+#contact {
+  height: 100vh;
+  margin: 5% 0;
+  padding: 6% 0;
 }
 /*# sourceMappingURL=app.css.map */

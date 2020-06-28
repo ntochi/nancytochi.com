@@ -4,8 +4,13 @@
     <title>Nancy Onukogu — Front-End Software Engineer</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <!-- AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <!-- Styles -->
     <link rel="stylesheet" href="./styles/app.css">
   </head>
 
@@ -22,22 +27,23 @@
         </button>
 
         <div class="collapse navbar-collapse" id="collapsibleNavId">
-            <ul class="navbar-nav ml-auto mr-3 mt-lg-0">
-                <li class="nav-item active mx-1 p-2">
-                    <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+            <ul class="navbar-nav ml-auto mr-3 mt-lg-0 p-2">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item mx-1 p-2">
-                    <a class="nav-link" href="#">Projects</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
                 </li>
-                <li class="nav-item mx-1 p-2">
+                <li class="nav-item"> 
                     <a class="nav-link" href="#">Resume</a>
+                    <!-- <a  href="./assets/gabrielaParadaResume.pdf" target="_blank" download="">Download resume</a> -->
                 </li>
-                <li class="nav-item mx-1 p-2">
+                <li class="nav-item">
                     <a class="nav-link" href="#">Blog</a>
                 </li>
             </ul>
             
-            <button class="btn btn-dark my-2 my-sm-0 mr-md-4 mr-sm-0" type="submit">Let's Talk</button>
+            <a role="button" class="btn btn-dark my-2 my-sm-0 mr-md-4 mr-sm-0" href="#contact">Let's Talk</a>
         </div>
     </nav>
     <!--Navigation bar end-->
@@ -73,15 +79,20 @@
 
     <!-- About Me starts here-->
     <section id="about">
-        <div class="container mt-5">
+        <div class="container">
             <div class="row">
-                <div class="col-xs-1-12 col-md-7">
-                    <h2>A bit about me..</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus minus impedit magni optio quo vero maxime temporibus amet voluptas eaque dignissimos quis id nulla, necessitatibus earum. Accusamus dignissimos voluptas consectetur!</p>
+                <div class="col-md-7 content">
+                    <h1>A bit about me</h1>
+                    <p class="pt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus minus impedit magni optio quo vero maxime temporibus amet voluptas eaque dignissimos quis id nulla, necessitatibus earum. Accusamus dignissimos voluptas consectetur!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt temporibus excepturi nostrum consequatur eius ab cupiditate repudiandae eos, amet, in velit? Amet corporis doloremque consequatur!</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor enim provident reprehenderit vitae omnis nesciunt, dolorum mollitia blanditiis a. Ratione voluptates voluptate provident cumque laborum! Earum quas, pariatur quia in deserunt quibusdam soluta nisi non reprehenderit aut, iusto sint sunt eveniet praesentium, et iste culpa voluptatem unde nam eius voluptates.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatem laborum provident ut eum, modi perspiciatis voluptatibus enim ducimus iusto.</p>
+                    
+                    <a class="btn btn-outline-dark mt-2" href="./assets/NancyOnukoguResume.pdf" target="_blank" download="">Download resume <i class="fas fa-file-download"></i></a>    
                 </div>
-                <div class="col-xs-1-12 col-md-5">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus minus impedit magni optio quo vero maxime temporibus amet voluptas eaque dignissimos quis id nulla, necessitatibus earum. Accusamus dignissimos voluptas consectetur!</p>
-                    <!-- <img src="public/headshot.jpg" alt="A photo of Nancy ouside her apartment."> -->
+
+                <div class="col-md-5">
+                    <img src="./assets/images/portrait.jpg" alt="A photo of Nancy ouside her apartment.">
                 </div>
             </div>
         </div>
@@ -103,7 +114,7 @@
 
 
     <!-- Languages & Tools -->
-    <section id="tools">
+    <section class="tools">
         <div class="container">
             <h2>Languages & Tools</h2>
             <ul>
@@ -128,7 +139,7 @@
     </section>
 
 
-    <!-- Contact Me -->
+    <!-- Contact starts here-->
     <section id="contact">
         <div class="container">
             <div class="row">
@@ -140,19 +151,33 @@
             </div>
         </div>
     </section>
+    <!-- Contact ends here -->
+
+
+    <!-- Blog starts here -->
+    <section>
+
+    </section>
+    <!-- Blog ends here-->
 
 
 
 
 
+    <footer>
+        <!-- <div>© 2020–Today / Copyright Nancy Onukogu. All rights reserved.</div>
 
-
-
-
-    <footer class="my-auto">
-        <!-- <div>© 2020–Today / Copyright Nancy Onukogu. All rights reserved.</div> -->
+        <nav class="socialLinks">
+            <ul>
+                <li><a href="https://www.linkedin.com/in//"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li><a href="https://github.com/ntochi"><i class="fab fa-github"></i></a></li>
+                <li><a href=""><i class="fab fa-dev"></i></a></li>
+            </ul>
+        </nav> -->
     </footer>
 
+    <!-- AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init({
