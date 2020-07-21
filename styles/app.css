@@ -1,12 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Cabin);
-nav a.name {
-  letter-spacing: 0;
-  font-size: 1.15;
+nav {
+  position: relative;
 }
 
-nav span.role {
-  font-size: 15px;
-  font-weight: 500;
+nav .navbar-brand {
+  width: 50%;
+  height: 0;
+  padding-top: 48%;
+  position: absolute;
+}
+
+nav .navbar-brand svg {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 nav .btn.btn-dark {
@@ -598,10 +605,18 @@ nav .nav-item.active {
   padding: 6% 0;
 }
 
-#tools {
+#skills {
   height: 100vh;
   margin: 5% 0;
   padding: 6% 0;
+}
+
+#skills .skills {
+  height: 100px;
+}
+
+#skills .tools {
+  height: 74px;
 }
 
 #contact {
