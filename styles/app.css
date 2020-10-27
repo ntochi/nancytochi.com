@@ -605,18 +605,10 @@ nav .nav-item.active {
   padding: 6% 0;
 }
 
-#skills {
+#tools {
   height: 100vh;
   margin: 5% 0;
   padding: 6% 0;
-}
-
-#skills .skills {
-  height: 100px;
-}
-
-#skills .tools {
-  height: 74px;
 }
 
 #contact {
