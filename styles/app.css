@@ -502,7 +502,7 @@ nav .nav-item.active {
   display: inline-block;
   overflow: hidden;
   white-space: nowrap;
-  font-size: 2.3rem;
+  font-size: 3rem;
 }
 
 #hero .greeting {
@@ -578,7 +578,7 @@ nav .nav-item.active {
 }
 
 #hero .title {
-  font-size: 1.25rem;
+  font-size: 1.50rem;
 }
 
 #about {
