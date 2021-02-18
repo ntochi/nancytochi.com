@@ -17,14 +17,13 @@
     </style>
 
 </head>
-<body>
-    
-    <nav class="bg-white dark:bg-gray-800 shadow">
+<body class="bg-red-100 font-mono">
+    <nav class="dark:bg-gray-800 shadow">
         <div class="relative md:container mx-auto px-14 py-7 md:py-5 md:flex md:justify-between md:items-center">
             <div class="flex justify-between items-center dropdown">
                 <div class="absolute w-4/5 lg:w-2/4 top-0 left-0">
-                    <a href="">
-                        <svg class="" viewBox="0 0 4000 3000">
+                    <a href="/">
+                        <svg viewBox="0 0 4000 3000">
                             <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
                           <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39        ">
                                 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -63,13 +62,14 @@
                 </div>
 
                 <!-- Dropdown menu on small breakpoint -->
-                <div class="dropdown-menu top-0 absolute hidden h-auto flex pt-10">
+                <!-- todo: Add hamburger icon to the right -->
+                <div class="dropdown-menu top-0 absolute hidden h-auto flex pt-10 mt-5 ">
                     <ul class="block w-full shadow p-8 md:hidden bg-white">
                         <li class="py-1">
-                            <a class="block font-bold text-base cursor-pointer hover:underline" href="http://www.doremaspire.com/about">About</a>
+                            <a class="block font-bold text-base cursor-pointer hover:underline" href="https://www.doremaspire.com/about">About</a>
                         </li>
                         <li class="py-1">
-                            <a class="block font-bold text-base cursor-pointer hover:underline" href="http://www.doremaspire.com/">Work</a>
+                            <a class="block font-bold text-base cursor-pointer hover:underline" href="https://www.doremaspire.com/">Work</a>
                         </li>
                         <li class="py-1">
                             <a class="block font-bold text-base cursor-pointer hover:underline" href="#googledrive">Resume</a>
@@ -84,13 +84,13 @@
             <!-- Menu on larger breakpoints -->
             <div class="hidden md:flex md:items-center">
                 <div class="md:flex-row md:mx-6">
-                    <a class="my-1 text-black dark:text-gray-200 font-medium hover:text-indigo-900 dark:hover:text-indigo-400 md:mx-4 md:my-0" href="http://www.doremaspire.com/about">About</a>
-                    <a class="my-1 text-black dark:text-gray-200 font-medium hover:text-indigo-900 dark:hover:text-indigo-400 md:mx-4 md:my-0" href="http://www.doremaspire.com/">Work</a>
-                    <a class="my-1 text-black dark:text-gray-200 font-medium hover:text-indigo-900 dark:hover:text-indigo-400 md:mx-4 md:my-0" href="#googledrive">Resume</a>
+                    <a class="my-1 text-black font-medium hover:underline md:mx-4 md:my-0" href="https://www.doremaspire.com/about">About</a>
+                    <a class="my-1 text-black font-medium hover:underline md:mx-4 md:my-0" href="https://www.doremaspire.com/">Work</a>
+                    <a class="my-1 text-black font-medium hover:underline md:mx-4 md:my-0" href="#googledrive">Resume</a>
                 </div>
 
-                <button class="py-2 px-2 tracking-wide bg-black dark:bg-gray-800 font-medium rounded hover:bg-white dark:hover:bg-gray-700">
-                    <a class="text-white hover:text-black hover:underline" href="#contact">Hire Me</a>
+                <button class="py-2 px-2 tracking-wide bg-black font-medium rounded hover:bg-white">
+                    <a class="text-white hover:text-black" href="#contact">Hire Me</a>
                 </button>
             </div>
         </div>
