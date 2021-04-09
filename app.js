@@ -11,11 +11,19 @@ app.set("view engine", "ejs");
 
 // Routes
 app.get("/", (req, res) => {
-    res.render("home")
+    try {
+        res.render("home")
+    } catch (e) {
+        console.log(`There was an error: ${e}`);
+    }
 });
 
-app.get("/books", (req, res) => {
-    res.render("books")
+app.get("/read", (req, res) => {
+    try {
+        res.render("books")
+    } catch (e) {
+        console.log(`There was an error: ${e}`);
+    }
 });
 
 
