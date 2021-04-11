@@ -19,7 +19,7 @@
 </head>
 <body class="bg-red-100 font-mono">
     <!-- Navigation starts here -->
-    <nav class="shadow">
+    <nav class="shadow md:py-1">
         <div class="relative md:container mx-auto py-7 px-14 md:py-5 md:flex md:justify-between md:items-center">
             <div class="flex justify-between items-center dropdown">
                 <div class="absolute w-4/5 lg:w-2/4 top-0 left-0">
@@ -62,19 +62,26 @@
                     </a>
                 </div>
 
-                <!-- Dropdown menu on small breakpoint -->
-                <!-- todo: Add hamburger icon to the right -->
+                <!-- * Dropdown menu on small breakpoint -->
+                <!-- todo: Add dropdown hamburger icon to the right -->
                 <div class="dropdown-menu top-0 absolute hidden h-auto flex pt-10 mt-5">
                     <ul class="block w-full shadow p-8 md:hidden">
                         <li class="py-1">
-                            <a class="block font-bold text-base cursor-pointer hover:underline" href="https://www.doremaspire.com/about">About</a>
+                            <a class="block font-bold text-base cursor-pointer hover:underline" href="#about">About</a>
                         </li>
+
                         <li class="py-1">
-                            <a class="block font-bold text-base cursor-pointer hover:underline" href="https://www.doremaspire.com/">Work</a>
+                            <a class="block font-bold text-base cursor-pointer hover:underline" href="#projects">Projects</a>
                         </li>
+
                         <li class="py-1">
                             <a class="block font-bold text-base cursor-pointer hover:underline" href="#googledrive">Resume</a>
                         </li>
+
+                        <li class="py-1">
+                            <a class="block font-bold text-base cursor-pointer hover:underline" href="/blog">Blog</a>
+                        </li>
+
                         <li class="py-1">
                             <a class="block font-bold text-base cursor-pointer hover:underline" href="#contact">Hire Me</a>
                         </li>
@@ -82,12 +89,13 @@
                 </div>
             </div>
 
-            <!-- Menu on larger breakpoints -->
+            <!-- * Menu on larger breakpoints -->
             <div class="hidden md:flex md:items-center">
-                <div class="md:flex-row md:mx-6">
+                <div class="md:flex-row md:mx-6 text-xl">
                     <a class="my-1 text-black font-medium hover:underline md:mx-4 md:my-0" href="#about">About</a>
-                    <a class="my-1 text-black font-medium hover:underline md:mx-4 md:my-0" href="https://www.doremaspire.com/">Work</a>
+                    <a class="my-1 text-black font-medium hover:underline md:mx-4 md:my-0" href="#projects">Projects</a>
                     <a class="my-1 text-black font-medium hover:underline md:mx-4 md:my-0" href="#googledrive">Resume</a>
+                    <a class="my-1 text-black font-medium hover:underline md:mx-4 md:my-0" href="/blog">Blog</a>
                 </div>
 
                 <button class="py-2 px-2 tracking-wide bg-black text-white font-medium rounded border-2 border-black hover:bg-white hover:text-black">

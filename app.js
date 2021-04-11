@@ -18,9 +18,27 @@ app.get("/", (req, res) => {
     }
 });
 
-app.get("/read", (req, res) => {
+
+app.get("/blog", (req, res) => {
     try {
-        res.render("books")
+        res.render("blog/index")
+    } catch (e) {
+        console.log(`There was an error: ${e}`);
+    }
+});
+
+app.get("/blog/reads", (req, res) => {
+    try {
+        res.render("blog/books")
+    } catch (e) {
+        console.log(`There was an error: ${e}`);
+    }
+});
+
+
+app.get("/blog/running", (req, res) => {
+    try {
+        res.render("blog/running")
     } catch (e) {
         console.log(`There was an error: ${e}`);
     }
