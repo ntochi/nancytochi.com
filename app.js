@@ -8,7 +8,6 @@ app.use(express.static(__dirname + "/public"));
 app.set("view engine", "ejs");
 
 
-
 // Routes
 app.get("/", (req, res) => {
     try {
@@ -27,6 +26,14 @@ app.get("/blog", (req, res) => {
     }
 });
 
+app.get("/blog/code", (req, res) => {
+    try {
+        res.render("blog/code")
+    } catch (e) {
+        console.log(`There was an error: ${e}`);
+    }
+});
+
 app.get("/blog/reads", (req, res) => {
     try {
         res.render("blog/books")
@@ -36,9 +43,17 @@ app.get("/blog/reads", (req, res) => {
 });
 
 
-app.get("/blog/running", (req, res) => {
+app.get("/blog/faith", (req, res) => {
     try {
-        res.render("blog/running")
+        res.render("blog/faith/index")
+    } catch (e) {
+        console.log(`There was an error: ${e}`);
+    }
+});
+
+app.get("/blog/faith/are-you-foolish", (req, res) => {
+    try {
+        res.render("blog/faith/are-you-foolish")
     } catch (e) {
         console.log(`There was an error: ${e}`);
     }
