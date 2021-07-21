@@ -59,6 +59,38 @@ app.get("/blog/faith/are-you-foolish", (req, res) => {
     }
 });
 
+app.get("/blog/faith/fight-to-win", (req, res) => {
+    try {
+        res.render("blog/faith/fight-to-win")
+    } catch (e) {
+        console.log(`There was an error: ${e}`);
+    }
+});
+
+app.get("/blog/faith/human-god", (req, res) => {
+    try {
+        res.render("blog/faith/human-god")
+    } catch (e) {
+        console.log(`There was an error: ${e}`);
+    }
+});
+
+app.get("/blog/faith/grace", (req, res) => {
+    try {
+        res.render("blog/faith/grace")
+    } catch (e) {
+        console.log(`There was an error: ${e}`);
+    }
+});
+
+app.get("/blog/faith/highlands", (req, res) => {
+    try {
+        res.render("blog/faith/highlands")
+    } catch (e) {
+        console.log(`There was an error: ${e}`);
+    }
+});
+
 
 app.listen(port, () => {
     console.log('Portfolio Has Started on Port 3003');
