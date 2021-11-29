@@ -51,6 +51,14 @@ app.get("/blog/faith", (req, res) => {
     }
 });
 
+app.get("/blog/faith/happy-new-year", (req, res) => {
+    try {
+        res.render("blog/faith/happy-new-year")
+    } catch (e) {
+        console.log(`There was an error: ${e}`);
+    }
+});
+
 app.get("/blog/faith/are-you-foolish", (req, res) => {
     try {
         res.render("blog/faith/are-you-foolish")
