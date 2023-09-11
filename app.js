@@ -3,8 +3,11 @@ const port = process.env.PORT || process.env.IP || 3003;
 
 const app = express();
 
-// View engine setup
+// Serve CSS static files
+// app.use(express.static(__dirname + "/public"));
 app.use(express.static(__dirname + "/public"));
+
+// Set-up view engine
 app.set("view engine", "ejs");
 
 
@@ -101,5 +104,5 @@ app.get("/blog/faith/highlands", (req, res) => {
 
 
 app.listen(port, () => {
-    console.log('Portfolio Has Started on Port 3003');
+    console.log('App started on http://localhost:3003/');
 });
