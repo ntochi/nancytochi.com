@@ -1,67 +1,67 @@
-#hero{
-    text-align: center;
-    padding-top: 25vh;
+#hero{ 
+  padding-top: 25vh;
+  overflow: hidden;
+
+  
+  .animate {
+    display: inline-block;
     overflow: hidden;
-    
-    .animate {
-        display: inline-block;
-        overflow: hidden;
-        white-space: nowrap;
+    white-space: nowrap;
+    font-size: 1.9rem;
+
+    @media (min-width: 500px) {
         font-size: 1.9rem;
-
-        @media (min-width: 500px) {
-            font-size: 1.9rem;
-        }
-        
-        @media (min-width: 768px) {
-            font-size: 2.25rem;
-        }
-
-        @media (min-width: 1024px) {
-            font-size: 3rem;
-        }
-    }
-
-    
-    .greeting {
-        font-weight: 600;
-        animation: showup 7s infinite;
-    }
-
-    .name-1{
-        margin-left: -355px;
-        animation: slidein 7s infinite;
-    }
-
-    @keyframes showup {
-        0% {opacity:0;}
-        20% {opacity:1;}
-        80% {opacity:1;}
-        100% {opacity:1;}
     }
     
-    @keyframes slidein {
-        0% {margin-left:-800px; }
-        20% {margin-left:-800px; }
-        35% {margin-left:0px; }
-        100% { margin-left:0px; }
+    @media (min-width: 768px) {
+        font-size: 2.25rem;
     }
+
+    @media (min-width: 1024px) {
+        font-size: 3rem;
+    }
+  }
+
+  
+  .greeting {
+    font-weight: 600;
+    animation: showup 7s infinite;
+  }
+
+  .name-1{
+      margin-left: -355px;
+      animation: slidein 7s infinite;
+  }
+
+  @keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:1;}
+  }
+  
+  @keyframes slidein {
+    0% {margin-left:-800px; }
+    20% {margin-left:-800px; }
+    35% {margin-left:0px; }
+    100% { margin-left:0px; }
+  }
+  
+  .title {
+    font-size: 1.2rem;
     
-    .title {
+    @media (min-width: 500px) {
         font-size: 1.2rem;
-        
-        @media (min-width: 500px) {
-            font-size: 1.2rem;
-        }
-
-        @media (min-width: 768px) {
-            font-size: 1.5rem;
-        }
-
-        @media (min-width: 1024px) {
-            font-size: 1.5rem;
-        }
     }
+
+    @media (min-width: 768px) {
+        font-size: 1.5rem;
+    }
+
+    @media (min-width: 1024px) {
+        font-size: 1.5rem;
+    }
+  }
 }
 
 

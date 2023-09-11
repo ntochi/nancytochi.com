@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nancy | Front-End Software Developer</title>
     <!-- AOS -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- TailwindCSS -->    
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <!-- Custom styles -->
-    <link rel="stylesheet" href="./styles/app.css">
+    <link rel="stylesheet" href="./public/app.css">
     <style>
         .dropdown:hover .dropdown-menu {
             display: block;
@@ -99,9 +99,10 @@
     <!-- Navigation ends here -->
 
     <!-- Hero section starts here -->
-    <section id="hero" class="h-auto">
+    <section id="hero" class="h-auto text-center">
         <div>
             <div class="animate greeting">Hey there,</div>
+
             <div class="animate"><span class="name-1">I'm Nancy</span></div>
 
             <div class="title mt-1 md:mt-0" data-aos="fade-down">Software Developer
@@ -126,24 +127,24 @@
         <div class="px-10 md:px-12 pt-10">
             <div class="max-w-4xl mx-auto text-md">
                 <p class="text-xl md:text-2xl">
-                    I'm a front-end developer. I enjoy creating things on the web. I regularly design & build small to medium-scale applications for clients ranging from individuals to small businesses. My goal is to always build products that provide smooth user experiences.
+                    I'm a front-end web developer. I enjoy creating things on the web. I regularly design & build small to medium-scale applications for clients ranging from individuals to small businesses. My goal is to always build products that provide smooth user experiences.
                 </p>
 
                 <p class="mt-3 text-xl md:text-2xl">
-                    I use technologies such as HTML & (S)CSS, TailwindCSS, JavaScript, NodeJS, MongoDB, and WordPress in my web applications.
+                    I use technologies such as HTML & (S)CSS, TailwindCSS, JavaScript, React, NodeJS, MongoDB, and WordPress in my web applications.
                 </p>
 
                 <p class="mt-3 text-xl md:text-2xl">
-                    Currently tinkering my head around the awesome ReactJS & Redux. When I am not learning new technologies, I spend my time bringing creative ideas to life at <a class="underline hover:underline hover:text-red-400" href="https://www.doremaspire.com/">Dorema Spire</a>.
-                </p>
-
-                <!-- todo: create a books page with book recommendations & lessons learnt -->
-                <p class="mt-3 text-xl md:text-2xl">
-                    When I'm not coding, you can find me volunteering at my local church, catching up on my <a class="underline hover:underline hover:text-red-400" href="/read">latest read</a>, or enjoying a K-drama with my younger sister.
+                    When I am not learning new technologies, I spend my time volunteering at my local church or catching up on my <a class="underline hover:underline hover:text-red-400" href="/blog">latest read</a>.
+                    <!-- todo: create a books page with book recommendations & lessons learnt -->
                 </p>
 
                 <p class="mt-3 text-xl md:text-2xl">
-                    I have found a fulfilling creative path through coding. I’m grateful that I am in a field where one of the major requirements for staying relevant is to keep learning. Cheers to that! 🥂
+                    I have found a fulfilling creative path through coding. I’m grateful that I am in a field where one of the major requirements for staying relevant is to keep learning. 
+                </p>
+
+                <p class="mt-3 text-xl md:text-2xl">
+                  Cheers to that! 🥂
                 </p>
                 
             </div>
@@ -163,9 +164,10 @@
 
                 <p class="mt-12 text-xl md:text-2xl">
                     <a href="mailto: nancytochi24@gmail.com" class="hover:underline hover:text-red-400">Email</a> |
-                    <a href="https://twitter.com/messages/compose?recipient_id=4480364673" class="hover:underline hover:text-red-400">Twitter</a> |
                     <a href="#" class="hover:underline hover:text-red-400">LinkedIn</a> |
-                    <a href="https://github.com/ntochi" class="hover:underline hover:text-red-400">Github</a>
+                    <a href="https://github.com/ntochi" class="hover:underline hover:text-red-400">Github</a> |
+                    <a href="https://twitter.com/messages/compose?recipient_id=4480364673" class="hover:underline hover:text-red-400">Twitter</a> 
+                  
                 </p>
             </div>
         </div>
@@ -202,6 +204,7 @@
 
     <!-- AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
     <script>
         AOS.init({
             duration: 1000,
