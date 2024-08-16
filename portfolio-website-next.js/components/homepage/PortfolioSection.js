@@ -1,10 +1,10 @@
 import React from 'react';
+import ProjectsCard from "../ProjectsCard";
 
 const PortfolioSection = () => {
   return (
-    <div className="h-screen">
-      
-      <ProjectsCard />
+    <div >
+       <ProjectsCard />
     </div>
   );
 };

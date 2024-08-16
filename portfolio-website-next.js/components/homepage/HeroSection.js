@@ -1,13 +1,18 @@
+import React from 'react';
+
 const HeroSection = () => (
-  <section id="hero" className="h-auto text-center">
-    <div>
-      <div className="animate greeting">Hey there,</div>
+  <section id="hero" className="h-screen text-center">
+    <div className="">
+      <div className="animate greeting">Hey there,   </div>
+
       <div className="animate">
         <span className="name-1">I'm Nancy</span>
       </div>
-      <div className="title mt-1 md:mt-0" data-aos="fade-down">
+
+      <div className="title md:mt-0" data-aos="fade-down">
         Software Developer 
-        <div className="mt-1">
+
+        <div className="py-2 space-x-4">
           <svg
             className="inline"
             xmlns="http://www.w3.org/2000/svg"
@@ -21,6 +26,7 @@ const HeroSection = () => (
               fill="rgba(231,76,60,1)"
             />
           </svg>
+
           <p className="inline">New York</p>
         </div>
 
