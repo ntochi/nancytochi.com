@@ -1,18 +1,19 @@
 import React from 'react';
+import Link from 'next/link';
 
 const HeroSection = () => (
-  <section id="hero" className="h-screen text-center">
+  <section id="hero" className="text-center">
     <div className="">
       <div className="animate greeting">Hey there,   </div>
 
       <div className="animate">
-        <span className="name-1">I'm Nancy</span>
+        <span className="name-1"> I'm Nancy</span>
       </div>
 
       <div className="title md:mt-0" data-aos="fade-down">
         Software Developer 
 
-        <div className="py-2 space-x-4">
+        <div className="py-4 space-x-4">
           <svg
             className="inline"
             xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +31,9 @@ const HeroSection = () => (
           <p className="inline">New York</p>
         </div>
 
-        Github | Linkedin
+        <Link href="https://github.com/ntochi" className="hover:text-black text-red-500 font-bold"> Github</Link>
+
+        <Link href="https://www.linkedin.com/in/nancyonukogu/" className="hover:text-black text-red-500 font-bold"> LinkedIn</Link>
 
       </div>
 

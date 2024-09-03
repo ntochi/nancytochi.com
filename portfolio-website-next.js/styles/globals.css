@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 #hero {
-  padding-top: 25vh;
+  padding: 30vh;
   overflow: hidden;
 }
 

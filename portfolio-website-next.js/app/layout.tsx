@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "@/styles/globals.css"
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 import Head from "next/head";
 
 export const metadata: Metadata = {
@@ -29,10 +27,8 @@ export default function RootLayout({
         </style>
       </Head>
 
-      <body className='bg-red-100 font-mono'>
-        <Header />
+      <body className='bg-red-200 font-mono'>
         <main>{children}</main>
-        <Footer />
       </body>
       
     </html>
