@@ -3,7 +3,7 @@ import NancyPicture from "../../public/picture_of_Nancy.jpg"
 
 const ThanksSection = () => (
   <section >
-    <div className="flex flex-wrap-reverse lg:flex-wrap justify-center mx-auto mt-10 pb-10">
+    <div className="flex flex-wrap-reverse lg:flex-wrap justify-center mx-auto pb-10">
       <div className="lg:w-2/5 flex items-center pt-10 md:pt-0">
         <div className="max-w-sm mx-auto border border-red-700">
 

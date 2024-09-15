@@ -18,7 +18,7 @@ export default function Home() {
           title="Aiuta Connect Mobile App" 
           imgSrc={AiutaConnectImage}
           imgAlt="Screenshot of Aiuta Connect's homepage"
-          body="Social network application for senior citizens. xxxxxxxxxxxxxx. Worked on a remote team with eight other developers and collaborated on GitHub. Wrote code reviews, submitted pull requests, and pair programmed."
+          body="Social network application for senior citizens. Worked with a remote team of eight developers, collaborating on GitHub. Wrote code reviews, submitted pull requests, and pair programmed."
           technologies="React Native, TypeScript, Expo, TailwindCSS, Neon, PostgreSQL"
           liveLink="https://aiutaconnect.com/"
         />
