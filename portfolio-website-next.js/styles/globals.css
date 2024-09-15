@@ -1,5 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 #hero {
-  padding-top: 25vh;
+  padding: 30vh;
   overflow: hidden;
 }
 
@@ -7,7 +11,7 @@
   display: inline-block;
   overflow: hidden;
   white-space: nowrap;
-  font-size: 1.9rem;
+  font-size: 1.5rem;
 }
 
 @media (min-width: 500px) {
