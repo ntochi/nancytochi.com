@@ -19,7 +19,7 @@ export default function Home() {
           imgSrc={AiutaConnectImage}
           imgAlt="Screenshot of Aiuta Connect's homepage"
           body="Social network application for senior citizens. Worked with a remote team of eight developers, collaborating on GitHub. Wrote code reviews, submitted pull requests, and pair programmed."
-          technologies="React Native, TypeScript, Expo, TailwindCSS, Neon, PostgreSQL"
+          technologies="React Native, TypeScript, Expo, TailwindCSS, Clerk, Neon, PostgreSQL"
           liveLink="https://aiutaconnect.com/"
         />
         <Card
@@ -36,7 +36,7 @@ export default function Home() {
           imgSrc={DiscoverNowImage}
           imgAlt="Screenshot of kidsplace homepage"
           body="Immersive and interactive learning platform that enables users to explore countries, languages, and cultures."
-          technologies="Next.js, React, TypeScript, Storybook, TailwindCSS, Neon, PostgreSQL, deployed on AWS"
+          technologies="Next.js, React, TypeScript, Storybook, TailwindCSS, Clerk, Neon, PostgreSQL, deployed on AWS"
           liveLink="https://www.discovernow.xyz/"
         />
 
