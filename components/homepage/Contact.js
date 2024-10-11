@@ -2,7 +2,7 @@
 import Link from 'next/link'
 
 const ContactSection = () => (
-  <section id="contact" className="md:h-screen text-center flex flex-col justify-center">
+  <section id="contact" className="sm:my-8 md:my-0 md:h-screen text-center flex flex-col justify-center">
     <h1 className="font-extrabold text-3xl md:text-5xl hover:text-red-400">
       Get in touch.
     </h1>

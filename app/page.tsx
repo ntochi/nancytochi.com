@@ -9,10 +9,10 @@ import AatcImage from "../public/aatcservices.png"
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex flex-col items-center">
+    <div className="min-h-screen flex flex-col items-center">
       <Hero />
 
-      <p className="text-5xl font-bold"> Featured work</p>
+      <p className="my-16 md:my-0 text-2xl md:text-4xl lg:text-5xl font-bold"> Featured work</p>
       <div className="mt-8">
         <Card
           title="Aiuta Connect Mobile App" 
@@ -53,6 +53,6 @@ export default function Home() {
 
       <Contact />
       <Thanks />
-    </main>
+    </div>
   );
 }

@@ -20,10 +20,12 @@ export default function Card(props) {
           }}
         />
       </div>
-      <div className="p-8">
+
+      <div className="p-8 sm:text-justify md:text-left">
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">{props.title}</h5>
         <p className="mb-3 font-normal dark:text-gray-900">{props.body}</p>
         <h6 className="mb-3 font-bold dark:text-gray-900">Technologies: {props.technologies}</h6>
+
         <div className="flex mt-4 space-x-3 md:mt-6">
           <motion.a 
             href={props.liveLink} 
